@@ -11,8 +11,10 @@ export const Layout = () => (
         {DATA.header.buttons.map((button) =>
           <button id={button.id}
             key={button.id}
-            className='flex items-center justify-start bg-black text-white rounded rounded-xl p-1'>
-            {button.id === "minimize" && "min" || button.id === "maximize" && "max" || button.id === "close" && "close"}
+            className='flex items-center px-4 py-1 justify-start items-center bg-black text-white rounded rounded-xl cursor-pointer'>
+            {button.id === "minimize" && <div className='flex h-1 w-3 bg-white'></div> ||
+              button.id === "maximize" && <div className='flex h-3 w-3 bg-white'></div> ||
+              button.id === "close" && "X"}
           </button>)}
 
       </div>
