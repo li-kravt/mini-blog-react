@@ -18,14 +18,14 @@ export const DATA = {
     {
       "id": 2,
       "title": "Card title",
-      "views": 152,
+      "views": 100,
       "isPinned": true,
       "isSaved": true
     },
     {
       "id": 3,
       "title": "Card title",
-      "views": 152,
+      "views": 121,
       "isPinned": true,
       "isSaved": true,
       "deletable": true
