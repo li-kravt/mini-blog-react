@@ -1,17 +1,13 @@
-import { Post } from "./Post"
+import { Section } from "./Section"
 
 export const PostSections = ({ postSections }) => (
 
-  <div>
-    <div>
-      <p>Heading</p>
-      <button>button</button>
-    </div>
+  <div className="flex flex-col gap-10">
     {postSections.map((item) =>
-      <Post title={item.title}
-        views={item.views}
-        isSaved={item.isSaved}
+      <Section
+        title={item.title}
         id={item.id}
-        description={item.description} />)}
+        cards={item.cards}
+        isOpen={item.isOpen} />)}
   </div>
 )

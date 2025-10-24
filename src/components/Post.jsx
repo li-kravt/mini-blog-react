@@ -13,7 +13,7 @@ export const Post = ({ title, views, isSaved, description }) => (
         </div>
         <div className="flex rounded-xl bg-black"></div>
         <div className="w-full h-0.5 bg-gray-200"></div>
-        <p>{description}</p>
+        <p className="w-54">{description}</p>
       </div>
     </div>
   </div>

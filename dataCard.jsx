@@ -13,7 +13,7 @@ export const DATA = {
       "title": "Card title",
       "views": 152,
       "isPinned": true,
-      "isSaved": true
+      "isSaved": false
     },
     {
       "id": 2,
@@ -70,7 +70,7 @@ export const DATA = {
           "title": "Card title",
           "views": 152,
           "description": null,
-          "isSaved": false
+          "isSaved": true
         }
       ]
     },
